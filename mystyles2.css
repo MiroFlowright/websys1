@@ -1,0 +1,101 @@
+body {
+    display: block;
+    background-color: lightblue;
+    font-family: 'Tahoma';
+    color: #89cceb; 
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+}
+body h2 {
+    font-size: 30px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container input {
+    box-sizing: content-box;
+    text-align: center;
+    display: flex;
+    margin-top: 5px;
+    margin: 10px auto;
+    padding: 20px;
+    width: 50%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.container {
+    box-sizing: border-box;
+    width: 50%;
+    padding: 40px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 16px;
+    background-color: rgba(67, 97, 161, 0.908);
+}
+
+.button1 {
+    padding: 5px 5px;
+    font-size: 13px;
+    background-color: rgb(135, 199, 228);
+    color: rgb(0, 0, 0);
+    border: 2px solid rgba(13, 38, 75, 0.637);
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 0 auto;
+    transition: background-color 0.3s;
+    text-decoration: none;
+}
+
+.container1 input {
+    box-sizing: content-box;
+    text-align: center;
+    display: flex;
+    margin-top: 5px;
+    margin: 10px auto;
+    padding: 20px;
+    width: 50%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.container1 {
+    box-sizing: border-box;
+    width: 50%;
+    padding: 40px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 16px;
+    background-color: rgba(67, 97, 161, 0.908);
+}
+
+#body2 {
+    display: block;
+    background-color: rgb(58, 84, 124);
+    font-family: 'Tahoma';
+    color: #677fa3; 
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#body2 .container1 {
+    background-color: #202b3b;
+}
+#body2 .button1 {
+   background-color: rgba(35, 36, 105, 0.315);
+   border: 2px solid lightblue;
+   color: rgb(177, 187, 196);
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
